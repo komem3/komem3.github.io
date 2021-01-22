@@ -2,4 +2,4 @@
 
 個人的に作成したプレゼンテーションを管理する場所
 
-- [[./killerpack.html]]
+- [[https://komem3.github.io/killerpack.html][emacsのキラーパッケージ]]
