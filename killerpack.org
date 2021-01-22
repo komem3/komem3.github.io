@@ -1,0 +1,102 @@
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_TITLE_SLIDE: <h1>%t</h1>%a
+#+REVEAL_EXTRA_CSS: ./reveal.css
+#+REVEAL_INIT_OPTIONS: width:1200, height:800, controlsLayout: 'edges',
+#+REVEAL_INIT_OPTIONS: keyboard:true,overview:true,slideNumber:"c/t"
+#+OPTIONS: toc:nil num:nil
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_HLEVEL: 2
+#+REVEAL_TRANS: none
+#+REVEAL_THEME: night
+#+title: emacsのキラーパッケージ
+
+* キラーパッケージって？
+これがあるから emacs を使うと言わせるパッケージたちです。
+
+emacs を使っている人が少ないですが、emacs のこのパッケージぐらいは
+emacsを使ってなくても知っとけと思い LT を準備しました。
+
+* 今回紹介するパッケージ
+- magit
+- org
+- evil
+
+* magit
+** 概要
+開発者には必須ツールの gitツール。
+グラフィカルなインターフェースと、gitコマンドの殆どの操作が可能な点が特徴です。
+
+** 外観
+- ダッシュボードでは現在の状態が見れる
+[[./images/magit_screen.png]]
+#+REVEAL: split
+- コミット画面
+[[./images/commit.png]]
+#+REVEAL: split
+- 分かりやすいコミットログの表示
+[[./images/commitlog.png]]
+
+** いい点
+殆どの git コマンドを簡単なショートカットで実行できるため、
+普通にコマンドを打つのが阿呆らしくなります。
+- commit: c → c
+- commit --amend: c → a
+- branch切りかえ: b → b
+- branch 作成: b → c
+- rebase 〜: r →
+- push 〜: p →
+
+** emacs開発の最高のパートナーです。
+
+* org
+** 概要
+ホームページのトップです。
+[[./images/org-home.png]]
+https://orgmode.org/ja/
+
+** つまり...？
+何でもできてしまうすごいやつです。
+
+** よく使われる用途
+何でもできると言っても何でもやる人は過激派です。
+
+たまに論文書いたり、ホームページ作成したりする人はいますが、
+もっとも使われる用途はやはりメモとTODO管理です。
+
+*** メモ
+文章が構造化されることはどんな状況においても発生します。それが見やすい状態で表示される。
+ショートカットや表現方式が豊富であり、様々なメモを取りやすいというのが愛されるポイントになっています。
+
+イメージ的には強化版 markdown といった感じです。
+
+*** TODO管理
+メモに様々なタグを付けれて、それをカレンダーと合わたり、どこからでも参照できたりすることができる感じです。
+タグとTODOの状態は別なんですが、イメージ的にはそんな感じ。
+
+これは実際に見た方が早いので実演
+
+** メモを取るなら org mode
+
+* evil
+** evil == 悪
+どういうことか分かりますよね？
+
+** パッケージの説明
+Evil is an extensible vi layer for Emacs. It emulates the main features of Vim, and provides facilities for writing custom extensions. Also see our page on EmacsWiki.
+
+** つまりそういうことです。vim モードです。
+
+** 戦争はとっくに終わってたんです。…
+小指いたいしね。
+
+** このぐらいしか話せないよ
+僕はemacsのキーバインド好きなので、使ってないパッケージなのでこんなもんです。
+vimmer は試してみたらといった感じです。
+
+* まとめ
+今回は emacs の有名なキラーパッケージを紹介しました。
+使わないなら、これだけ知っとけば emacs については大丈夫です。
+覚えて帰ってください。
+
+* おわり

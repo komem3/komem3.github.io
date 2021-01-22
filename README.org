@@ -1,0 +1,5 @@
+#+title: presentation
+
+個人的に作成したプレゼンテーションを管理する場所
+
+- [[./killerpack.html]]
