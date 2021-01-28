@@ -3,3 +3,4 @@
 個人的に作成したプレゼンテーションを管理する場所
 
 - [[https://komem3.github.io/killerpack.html][emacsのキラーパッケージ]]
+- [[https://komem3.github.io/trust_cloud.html][trust cloud]]

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      The cloud trust paradox: To trust cloud computing more, you need the
+      ability to trust it less
+    </title>
+    <meta name="author" content="(komem3)" />
+    <style type="text/css">
+      .underline {
+        text-decoration: underline;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/sky.css"
+      id="theme"
+    />
+
+    <link rel="stylesheet" href="./reveal.css" />
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if (window.location.search.match(/print-pdf/gi)) {
+        var link = document.createElement("link");
+        link.rel = "stylesheet";
+        link.type = "text/css";
+        link.href = "https://cdn.jsdelivr.net/npm/reveal.js/css/print/pdf.css";
+        document.getElementsByTagName("head")[0].appendChild(link);
+      }
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section id="sec-title-slide">
+          <h1>
+            The cloud trust paradox: To trust cloud computing more, you need the
+            ability to trust it less
+          </h1>
+          komem3
+        </section>
+
+        <section>
+          <section id="slide-org35f1b72">
+            <h2 id="org35f1b72">何の LT？</h2>
+            <p>
+              やりたかったやつが間に合いそうになかったので、先日読んだGCPブログの話をします。
+              <a
+                href="https://cloud.google.com/blog/products/identity-security/trust-a-cloud-provider-that-enables-you-to-trust-them-less"
+                >https://cloud.google.com/blog/products/identity-security/trust-a-cloud-provider-that-enables-you-to-trust-them-less</a
+              >
+            </p>
+          </section>
+        </section>
+        <section>
+          <section id="slide-orgfbd58dd">
+            <h2 id="orgfbd58dd">クラウドの核となるものは？</h2>
+            <p>
+              以下のものよりも重要とされているクラウドので重要視されているものは？
+            </p>
+            <ul>
+              <li>セキュリティ</li>
+              <li>プライバシー</li>
+              <li>コンプライアンス</li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <section id="slide-orge108023">
+            <h2 id="orge108023">☆☆☆信用(trust)☆☆☆</h2>
+            <div class="outline-text-2" id="text-orge108023"></div>
+          </section>
+        </section>
+        <section>
+          <section id="slide-org08638dc">
+            <h3 id="org08638dc">信用の要因になるもの</h3>
+            <ul>
+              <li>地理的な要因： 社内だけで管理しているから安心。</li>
+              <li>感情的な要因： 中国の企業だし不安。</li>
+            </ul>
+
+            <p>信用するには色々な要因があります。</p>
+          </section>
+        </section>
+        <section>
+          <section id="slide-orgb610af7">
+            <h3 id="orgb610af7">クラウドプロバイダーの信用</h3>
+            <p>
+              パブリッククラウドを使うには、まずクラウドプロバイダーを信用しないといけないです。
+              これがもっとも大事なのは自明です。
+            </p>
+          </section>
+        </section>
+        <section>
+          <section id="slide-orgc1c0106">
+            <h3 id="orgc1c0106">どうやったら信用できるの？</h3>
+            <p>
+              <b
+                ><b
+                  >to be able to trust cloud computing, you need to be able to
+                  trust it less.</b
+                ></b
+              >
+            </p>
+
+            <p>信用しないようにすることで、信用できるようになる。</p>
+          </section>
+        </section>
+        <section>
+          <section id="slide-org9977cf3">
+            <h3 id="org9977cf3">矛盾してない？</h3>
+            <p>矛盾してないことを分からせてくれるブログなんです。</p>
+          </section>
+        </section>
+        <section>
+          <section id="slide-org00f31cc">
+            <h2 id="org00f31cc">信用させないようにする</h2>
+            <p>
+              信用しないことが、信用することに繋がるため、GCPは信用させないようにする製品を用意しています。
+            </p>
+            <ul>
+              <li>データのセキュリティコントロールを柔軟に</li>
+              <li>顧客の暗号鍵の使用を可能に</li>
+              <li>on-premise 最強伝説の方々への配慮</li>
+            </ul>
+          </section>
+        </section>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+
+    <script>
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        width: 1200,
+        height: 800,
+        controlsLayout: "edges",
+        keyboard: true,
+        overview: true,
+        slideNumber: "c/t",
+        multiplex: {
+          secret: "", // null if client
+          id: "", // id, obtained from socket.io server
+          url: "", // Location of socket.io server
+        },
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          {
+            src: "https://cdn.jsdelivr.net/npm/reveal.js/lib/js/classList.js",
+            condition: function () {
+              return !document.body.classList;
+            },
+          },
+          {
+            src:
+              "https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/marked.js",
+            condition: function () {
+              return !!document.querySelector("[data-markdown]");
+            },
+          },
+          {
+            src:
+              "https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js",
+            condition: function () {
+              return !!document.querySelector("[data-markdown]");
+            },
+          },
+          {
+            src:
+              "https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom-js/zoom.js",
+            async: true,
+            condition: function () {
+              return !!document.body.classList;
+            },
+          },
+          {
+            src: "https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js",
+            async: true,
+            condition: function () {
+              return !!document.body.classList;
+            },
+          },
+        ],
+      });
+    </script>
+  </body>
+</html>

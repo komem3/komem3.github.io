@@ -1,0 +1,50 @@
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_TITLE_SLIDE: <h1>%t</h1>%a
+#+REVEAL_EXTRA_CSS: ./reveal.css
+#+REVEAL_INIT_OPTIONS: width:1200, height:800, controlsLayout: 'edges',
+#+REVEAL_INIT_OPTIONS: keyboard:true,overview:true,slideNumber:"c/t"
+#+OPTIONS: toc:nil num:nil
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_HLEVEL: 2
+#+REVEAL_TRANS: none
+#+REVEAL_THEME: sky
+#+title: The cloud trust paradox: To trust cloud computing more, you need the ability to trust it less
+
+* 何の LT？
+やりたかったやつが間に合いそうになかったので、先日読んだGCPブログの話をします。
+https://cloud.google.com/blog/products/identity-security/trust-a-cloud-provider-that-enables-you-to-trust-them-less
+
+* クラウドの核となるものは？
+以下のものよりも重要とされているクラウドので重要視されているものは？
+- セキュリティ
+- プライバシー
+- コンプライアンス
+
+* ☆☆☆信用(trust)☆☆☆
+
+** 信用の要因になるもの
+- 地理的な要因：
+  社内だけで管理しているから安心。
+- 感情的な要因：
+  中国の企業だし不安。
+
+信用するには色々な要因があります。
+
+** クラウドプロバイダーの信用
+パブリッククラウドを使うには、まずクラウドプロバイダーを信用しないといけないです。
+これがもっとも大事なのは自明です。
+
+** どうやったら信用できるの？
+**to be able to trust cloud computing, you need to be able to trust it less.**
+
+信用しないようにすることで、信用できるようになる。
+
+** 矛盾してない？
+矛盾してないことを分からせてくれるブログなんです。
+
+* 信用させないようにする
+信用しないことが、信用することに繋がるため、GCPは信用させないようにする製品を用意しています。
+- データのセキュリティコントロールを柔軟に
+- 顧客の暗号鍵の使用を可能に
+- on-premise 最強伝説の方々への配慮
