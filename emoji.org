@@ -1,0 +1,92 @@
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_TITLE_SLIDE: <h1>%t</h1>%a
+#+REVEAL_EXTRA_CSS: ./reveal.css
+#+REVEAL_INIT_OPTIONS: width:1200, height:800, controlsLayout: 'edges',
+#+REVEAL_INIT_OPTIONS: keyboard:true,overview:true,slideNumber:"c/t"
+#+OPTIONS: toc:nil num:nil
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_HLEVEL: 1
+#+REVEAL_TRANS: none
+#+REVEAL_THEME: sky
+#+OPTIONS: \n:t
+#+title: What do you mean those emojis?
+
+* はじめに
+日本発祥の文化絵文字。
+しかし、Unicode に登録されている絵文字の中には
+日本人すらよく分かっていない絵文字がいくつかあります。
+
+今回はよく見るけど意味がよく分からんものを見ていきます。
+参考文献 https://emojipedia.org
+
+* 🙏
+: Two hands placed firmly together, meaning please or thank you in Japanese culture.
+: A common alternative use for this emoji is for prayer,
+: using the same gesture as praying hands. Rarely: a high-five.
+
+お手々を合わせて、お願いしたり、ありがとうする **日本の文化** の絵文字らしいです。
+
+手を合わせる人見たことないよ…
+
+* 🤚
+: A hand held up showing its palm. May be used to mean stop, or as a high-five.
+
+掌を見せてもちあげる絵文字。多分ストップを意味する。
+
+意味しないよ!!
+
+* 🙌
+: Two hands raised in the air, celebrating success or another joyous event.
+: (中略) might be done along with the the exclamation Banzai! in Japan.
+
+両手を空に上げ、成功や喜ばしいイベントを祝う絵文字。
+多分日本の万歳と一緒に行なわれるものです。
+
+えっ‥あーなるほど。
+
+* 👀
+: A pair of eyes, glancing slightly to the left on most platforms. 
+: The Google version of this emoji previously showed only a single eye
+
+ほとんどの環境で少し左を向いている目のペア。目が一つだったこともあるみたい。
+キャリア携帯だと真っ直ぐ前を向いているみたいです。
+
+: Sometimes used to indicate ‘pervy eyes’ to indicate approval of an attractive photo 
+: posted online; or ‘shifty eyes’ to convey a deceitful act.
+
+魅力的な写真に対する、はつらつとした目や、ずるいことをしようとしていることを伝える、ずるい目として使われる。
+
+見るよ、ってことを伝えたことしかないよ…
+
+* 😇
+: A yellow face with smiling eyes, closed smile, and halo, usually blue, overhead.
+: Often represents angels, prayers, and blessings. May also convey angelic behavior, e.g., doing good deeds.
+
+笑ってる目、閉じた口の笑み、そして頭上に天使の輪(大抵青)の絵文字。
+天使や祈り、祝福を表わします。多分天使のような行ないとかです。
+
+チーン😇 って使ってたけど、そうですよねぇ。
+
+* 🥺
+: A yellow face with furrowed eyebrows, a small frown, and large, “puppy dog” eyes, 
+: as if begging or pleading. May also represent adoration or feeling touched by a loving gesture.
+
+ひだのある眉毛を小さくひそめ、物乞いや懇願を行なう子犬のような大きな目。
+愛情をこめたジェスチャーによる、崇拝や感動を表わします。
+
+: Pleading Face is the third most popular emoji used on Twitter, 
+: and the most commonly found emoji in tweets that include hearts. 
+: Used in sequence with pointing hands to indicate a bashful or shy pose (🥺👉👈) particularly on TikTok.
+
+twitter で 3番目に使用されている絵文字。ハートと一緒に使われることが多いです。
+TikTok だと、🥺👉👈 で恥しいとか、恥しがり屋を表現するみたいです。
+
+ぴえん🥺 
+
+* まとめ
+絵文字は日本発祥ですが、そのくせ意味も日本発祥でも日本人が、「えっ」て思う絵文字は多いということです。
+絵文字の解釈は人それぞれなので、意味に拘る必要もないですが、捉えられ方に気をつけた方がいいかもしれないです。
+
+
+
