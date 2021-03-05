@@ -4,4 +4,4 @@
 
 - [[https://komem3.github.io/killerpack.html][emacsのキラーパッケージ]]
 - [[https://komem3.github.io/trust_cloud.html][trust cloud]]
-- [[./emoji.html][emoji]]
+- [[https://komem3.github.io/emoji.html][emoji]]
