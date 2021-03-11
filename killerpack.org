@@ -90,9 +90,8 @@ Evil is an extensible vi layer for Emacs. It emulates the main features of Vim, 
 ** 戦争はとっくに終わってたんです。…
 小指いたいしね。
 
-** このぐらいしか話せないよ
-僕はemacsのキーバインド好きなので、使ってないパッケージなのでこんなもんです。
-vimmer は試してみたらといった感じです。
+** 正直…
+vim のエミュレータとして結構最高のエミュレータなので、vim をはじめるにはおすすめです。
 
 * まとめ
 今回は emacs の有名なキラーパッケージを紹介しました。
