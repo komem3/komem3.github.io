@@ -16,6 +16,7 @@
 - 名前: 三國孔明
 - ユーザ名: komem3
 - 好きなもの:  Emacs, Go, Python
+- 出身: 東京生れの東京育ち
 - 趣味:  読書(小説, 漫画)
 [[./images/4clover.png]]
 

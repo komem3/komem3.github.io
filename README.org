@@ -5,4 +5,4 @@
 - [[https://komem3.github.io/killerpack.html][emacsのキラーパッケージ]]
 - [[https://komem3.github.io/trust_cloud.html][trust cloud]]
 - [[https://komem3.github.io/emoji.html][emoji]]
-= [[https://komem3.github.io/self.html][self]]
+- [[https://komem3.github.io/self.html][self]]
