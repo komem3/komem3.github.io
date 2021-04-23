@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>自己紹介</title>
+    <meta name="author" content="(komem3)" />
+    <style type="text/css">
+      .underline {
+        text-decoration: underline;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/sky.css"
+      id="theme"
+    />
+
+    <link rel="stylesheet" href="./reveal.css" />
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if (window.location.search.match(/print-pdf/gi)) {
+        var link = document.createElement("link");
+        link.rel = "stylesheet";
+        link.type = "text/css";
+        link.href = "https://cdn.jsdelivr.net/npm/reveal.js/css/print/pdf.css";
+        document.getElementsByTagName("head")[0].appendChild(link);
+      }
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section id="sec-title-slide">
+          <h1>自己紹介</h1>
+          komem3
+        </section>
+
+        <section>
+          <section id="slide-org28a62e6">
+            <h2 id="org28a62e6">自己紹介</h2>
+            <ul>
+              <li>名前: 三國孔明<br /></li>
+              <li>ユーザ名: komem3<br /></li>
+              <li>好きなもの: Emacs, Go, Python<br /></li>
+              <li>趣味: 読書(小説, 漫画)<br /></li>
+            </ul>
+
+            <div class="figure">
+              <p><img src="./images/4clover.png" alt="4clover.png" /><br /></p>
+            </div>
+          </section>
+        </section>
+        <section>
+          <section id="slide-org69a765f">
+            <h2 id="org69a765f">設定ファイルを公開📔</h2>
+            <div class="outline-text-2" id="text-org69a765f"></div>
+          </section>
+          <section id="slide-org5673b54">
+            <h3 id="org5673b54">
+              gistで管理しているファイルを読みこんでいます
+            </h3>
+
+            <div class="figure">
+              <p><img src="./images/init.png" alt="init.png" /><br /></p>
+            </div>
+          </section>
+        </section>
+        <section>
+          <section id="slide-org53ba96c">
+            <h2 id="org53ba96c">これからもよろしくお願いします🔥</h2>
+          </section>
+        </section>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+
+    <script>
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        width: 1200,
+        height: 800,
+        controlsLayout: "edges",
+        keyboard: true,
+        overview: true,
+        slideNumber: "c/t",
+        multiplex: {
+          secret: "", // null if client
+          id: "", // id, obtained from socket.io server
+          url: "", // Location of socket.io server
+        },
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          {
+            src: "https://cdn.jsdelivr.net/npm/reveal.js/lib/js/classList.js",
+            condition: function () {
+              return !document.body.classList;
+            },
+          },
+          {
+            src:
+              "https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/marked.js",
+            condition: function () {
+              return !!document.querySelector("[data-markdown]");
+            },
+          },
+          {
+            src:
+              "https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js",
+            condition: function () {
+              return !!document.querySelector("[data-markdown]");
+            },
+          },
+          {
+            src:
+              "https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom-js/zoom.js",
+            async: true,
+            condition: function () {
+              return !!document.body.classList;
+            },
+          },
+          {
+            src: "https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js",
+            async: true,
+            condition: function () {
+              return !!document.body.classList;
+            },
+          },
+        ],
+      });
+    </script>
+  </body>
+</html>

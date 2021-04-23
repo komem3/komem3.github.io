@@ -1,0 +1,29 @@
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_TITLE_SLIDE: <h1>%t</h1>%a
+#+REVEAL_EXTRA_CSS: ./reveal.css
+#+REVEAL_INIT_OPTIONS: width:1200, height:800, controlsLayout: 'edges',
+#+REVEAL_INIT_OPTIONS: keyboard:true,overview:true,slideNumber:"c/t"
+#+OPTIONS: toc:nil num:nil
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_HLEVEL: 1
+#+REVEAL_TRANS: none
+#+REVEAL_THEME: sky
+#+OPTIONS: \n:t
+#+title: 自己紹介
+
+* 自己紹介
+- 名前: 三國孔明
+- ユーザ名: komem3
+- 好きなもの:  Emacs, Go, Python
+- 趣味:  読書(小説, 漫画)
+[[./images/4clover.png]]
+
+* 設定ファイルを公開📔
+
+** gistで管理しているファイルを読みこんでいます
+[[./images/init.png]]
+
+* これからもよろしくお願いします🔥
+
+
